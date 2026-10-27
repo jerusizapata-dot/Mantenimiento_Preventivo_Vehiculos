@@ -1,0 +1,34 @@
+{
+  "baseline": {
+    "accuracy": 0.81,
+    "precision": 0.81,
+    "recall": 1.0,
+    "f1": 0.8950276243093923,
+    "matriz_confusion": [
+      [
+        0,
+        1900
+      ],
+      [
+        0,
+        8100
+      ]
+    ]
+  },
+  "modelo1_regresion_logistica": {
+    "accuracy": 0.7931,
+    "precision": 0.83003173908285,
+    "recall": 0.9362962962962963,
+    "f1": 0.8799675117479839,
+    "matriz_confusion": [
+      [
+        347,
+        1553
+      ],
+      [
+        516,
+        7584
+      ]
+    ]
+  }
+}
