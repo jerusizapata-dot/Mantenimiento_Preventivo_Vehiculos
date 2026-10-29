@@ -1,0 +1,12 @@
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Cache de pruebas
+.pytest_cache/
+
+# Entornos virtuales locales
+.venv/
+
+# Modelos serializados (si se generan localmente)
+# *.joblib
