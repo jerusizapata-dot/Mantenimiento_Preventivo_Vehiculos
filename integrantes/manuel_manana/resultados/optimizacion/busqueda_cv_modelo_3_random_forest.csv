@@ -1,0 +1,7 @@
+params,mean_test_score,std_test_score,rank_test_score
+"{'clasificador__n_estimators': 60, 'clasificador__min_samples_leaf': 10, 'clasificador__max_features': 0.8, 'clasificador__max_depth': 14, 'clasificador__class_weight': 'balanced'}",0.8427088494567974,0.00149454275263688,4
+"{'clasificador__n_estimators': 100, 'clasificador__min_samples_leaf': 10, 'clasificador__max_features': 'sqrt', 'clasificador__max_depth': 10, 'clasificador__class_weight': None}",0.8426233003042674,0.0025985270751953597,5
+"{'clasificador__n_estimators': 100, 'clasificador__min_samples_leaf': 10, 'clasificador__max_features': 0.8, 'clasificador__max_depth': 6, 'clasificador__class_weight': 'balanced'}",0.8450324168894005,0.0012673048344899155,2
+"{'clasificador__n_estimators': 100, 'clasificador__min_samples_leaf': 60, 'clasificador__max_features': 'sqrt', 'clasificador__max_depth': 10, 'clasificador__class_weight': 'balanced'}",0.8443995588403084,0.00266372777711485,3
+"{'clasificador__n_estimators': 140, 'clasificador__min_samples_leaf': 10, 'clasificador__max_features': 'sqrt', 'clasificador__max_depth': None, 'clasificador__class_weight': None}",0.8417077946458543,0.0023550625979058613,6
+"{'clasificador__n_estimators': 60, 'clasificador__min_samples_leaf': 30, 'clasificador__max_features': 0.8, 'clasificador__max_depth': 6, 'clasificador__class_weight': None}",0.8450547975183992,0.0013002944657531897,1

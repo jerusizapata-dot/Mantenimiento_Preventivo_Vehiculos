@@ -1,0 +1,55 @@
+{
+  "modelo_2_arbol": {
+    "n_desarrollo": 32000,
+    "n_validacion": 8000,
+    "roc_auc_cv_desarrollo": 0.8434429059569589,
+    "roc_auc_validacion": 0.8490207216536712,
+    "average_precision_validacion": 0.9594264989981853,
+    "mejores_parametros": {
+      "clasificador__min_samples_split": 20,
+      "clasificador__min_samples_leaf": 30,
+      "clasificador__max_depth": 4,
+      "clasificador__class_weight": null
+    },
+    "recall_minimo_exploratorio": 0.95,
+    "umbral_candidato_validacion": {
+      "umbral": 0.545,
+      "recall": 1.0,
+      "especificidad": 0.0,
+      "precision": 0.81,
+      "tn": 0.0,
+      "fp": 1520.0,
+      "fn": 0.0,
+      "tp": 6480.0,
+      "vehiculos_senalados": 8000.0
+    },
+    "advertencia": "Umbral elegido y medido sobre la misma validación: cifras optimistas. El test oficial no se ha usado en este script. No es validación externa."
+  },
+  "modelo_3_random_forest": {
+    "n_desarrollo": 32000,
+    "n_validacion": 8000,
+    "roc_auc_cv_desarrollo": 0.8450547975183992,
+    "roc_auc_validacion": 0.847692190545809,
+    "average_precision_validacion": 0.9648684502228764,
+    "mejores_parametros": {
+      "clasificador__n_estimators": 60,
+      "clasificador__min_samples_leaf": 30,
+      "clasificador__max_features": 0.8,
+      "clasificador__max_depth": 6,
+      "clasificador__class_weight": null
+    },
+    "recall_minimo_exploratorio": 0.95,
+    "umbral_candidato_validacion": {
+      "umbral": 0.545,
+      "recall": 0.9512345679012346,
+      "especificidad": 0.17828947368421053,
+      "precision": 0.8315122082827465,
+      "tn": 271.0,
+      "fp": 1249.0,
+      "fn": 316.0,
+      "tp": 6164.0,
+      "vehiculos_senalados": 7413.0
+    },
+    "advertencia": "Umbral elegido y medido sobre la misma validación: cifras optimistas. El test oficial no se ha usado en este script. No es validación externa."
+  }
+}
