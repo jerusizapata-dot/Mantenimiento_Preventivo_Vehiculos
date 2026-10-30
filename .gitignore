@@ -1,0 +1,16 @@
+
+# Entornos virtuales
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Archivos temporales de pruebas
+.pytest_cache/
+
+# Archivos temporales de Office
+~$*
+
+# Archivo accidental vacío
+/type
